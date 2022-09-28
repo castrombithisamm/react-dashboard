@@ -1,14 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Header = ({ name }) => {
-  return (
-    <div className="mb-10">
-    
-      <p className="ml-20 text-1xl font-extrabold tracking-tight text-slate-900" >{name}</p>
+	return (
+		<div className="mb-10">
+			<p className="ml-20 text-1xl font-extrabold tracking-tight text-slate-900">
+				{name}
+			</p>
+		</div>
+	);
+};
 
-
-    </div>
-  )
-}
-
-export default Header
+export default Header;
